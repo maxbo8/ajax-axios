@@ -1,21 +1,34 @@
 window.addEventListener('DOMContentLoaded', () => {
     function init() {
-        let request = new XMLHttpRequest();
-        request.open('GET', 'http://localhost:3000/people');
-        request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
-        request.send();
+        // let request = new XMLHttpRequest();
+        // request.open('GET', 'http://localhost:3000/people');
+        // request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+        // request.send();
 
-        request.addEventListener('readystatechange', function() {
-            if (request.readyState === 4 && request.status == 200) {
-                let data = JSON.parse(request.response);
-            } else {
-                console.error("Что-то пошло не так");     
-            }
-        });
+        // request.addEventListener('readystatechange', function() {
+        //     if (request.readyState === 4 && request.status == 200) {
+        //         let data = JSON.parse(request.response);
+        //     } else {
+        //         console.error("Что-то пошло не так");     
+        //     }
+        // });
+
+        getResource('http://localhost:3000/books')
+            .then(data => createCards(data.data))
+            .catch(err => console.error(err));
 
         this.remove();
     }
 
+    async function getResource(url) {
+        const res = await axios(url);
+
+        if(res.status !==200) {
+            throw new Error(`Could not fetch ${url}, status: ${res.status}`);
+        }
+        return res; 
+    }
+    
     function createCards(response) {
         response.forEach(item => {
             let card = document.createElement('div');
