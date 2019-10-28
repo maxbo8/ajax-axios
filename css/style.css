@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card {
+    width: 400px;
+    border: 1px solid black;
+    padding: 25px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 30px rgba(0,0,0, .1);
+}
