@@ -1,0 +1,9 @@
+{
+    "books": [
+        {
+            "name": "Самоучитель немецкого языка для начинающих",
+            "author": "А.П. Кравченко",
+            "language": "deutsch",
+            "amount": 8,
+            "photo": "https://img2.labirint.ru/books/416692/big.jpg"
+        },
