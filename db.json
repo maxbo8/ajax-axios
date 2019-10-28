@@ -7,3 +7,33 @@
             "amount": 8,
             "photo": "https://img2.labirint.ru/books/416692/big.jpg"
         },
+        {
+            "name": "Английский для взрослых. English is not easy",
+            "author": "Люси Гутьерес",
+            "language": "english",
+            "amount": 5,
+            "photo": "https://scontent-lga3-1.cdninstagram.com/vp/418a9099266cb422fefd96e4366e4db0/5DD82DC6/t51.2885-15/sh0.08/e35/c0.100.1080.1080a/s640x640/66051599_391950091434666_3453705521698560196_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com"
+        },
+        {
+            "name": "Deutsche Grammatik / Грамматика немецкого языка",
+            "author": "И.П. Тагиль",
+            "language": "deutsch",
+            "amount": 2,
+            "photo": "https://cdn1.ozone.ru/multimedia/c650/1005974223.jpg"
+        },
+        {
+            "name": "Английский для дебилов",
+            "author": "Макс Инглиш",
+            "language": "english",
+            "amount": 2,
+            "photo": "https://s3-goods.ozstatic.by/2000/525/816/10/10816525_0.jpg"
+        },
+        {
+            "name": "Грамматика немецкого языка. Краткий справочник. 7-е издание",
+            "author": "В.М. Завьялова",
+            "language": "deutsch",
+            "amount": 30,
+            "photo": "https://www.moscowbooks.ru/image/book/425/w600/i425111.jpg"
+        }
+    ]
+}
