@@ -26,8 +26,8 @@ img {
 }
 
 .name {
-    font-size: 26px;
-    text-align: center;
+    font-size: 28px;
+    text-align: left;
 }
 
 .language {
@@ -46,4 +46,8 @@ img {
     font-weight: bold;
     margin-top: 10px;
     font-size: 24px;
+}
+
+.amount {
+    text-align: center;
 }
