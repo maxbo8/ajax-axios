@@ -1,8 +1,8 @@
 ## Deployment
 
-- Install Node.js;
+- Install Node.js(https://nodejs.org/en/, 12.16.3);
 
-- Clone the project and install the necessary dependencies:
+- Clone the project and install the necessary dependencies in your code editor:
 ```
 git clone https://github.com/maxbo8/ajax-axios.git
 cd ajax-axios
