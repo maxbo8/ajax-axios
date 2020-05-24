@@ -1,5 +1,6 @@
 ## Deployment
-<img height="700" src="https://giphy.com/embed/W4uvtKZv0Uqq55afb3" />
+<img height="700" src="https://media.giphy.com/media/W4uvtKZv0Uqq55afb3/giphy.gif" />
+
 
 - Install Node.js(https://nodejs.org/en/, 12.16.3);
 
