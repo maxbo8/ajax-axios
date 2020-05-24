@@ -1,5 +1,5 @@
 ## Deployment
-
+        ![Preview](./preview.gif)
 - Install Node.js(https://nodejs.org/en/, 12.16.3);
 
 - Clone the project and install the necessary dependencies in your code editor:
