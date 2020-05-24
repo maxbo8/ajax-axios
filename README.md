@@ -1,5 +1,6 @@
 ## Deployment
-        ![Preview](https://gph.is/g/apQ6rRB)
+<img height="700" src="https://gph.is/g/apQ6rRB" />
+
 - Install Node.js(https://nodejs.org/en/, 12.16.3);
 
 - Clone the project and install the necessary dependencies in your code editor:
