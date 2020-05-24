@@ -1,5 +1,7 @@
 ## Deployment
-        ![Preview](./preview.gif)
+<img height="400" src="https://media.giphy.com/media/W4uvtKZv0Uqq55afb3/giphy.gif" />
+
+
 - Install Node.js(https://nodejs.org/en/, 12.16.3);
 
 - Clone the project and install the necessary dependencies in your code editor:
